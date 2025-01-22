@@ -8,7 +8,7 @@ import LandingPageNavBar from './_components/navbar'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen  dark:bg-neutral-950 text-white">
       <LandingPageNavBar />
 
       <main>
@@ -28,7 +28,7 @@ export default function Home() {
 
         <VideoShowcase />
 
-        <section className="container mx-auto px-4 py-20">
+        <section className="container mx-auto px-4 py-20  dark:bg-neutral-950">
           <h2 className="text-3xl font-bold mb-8 text-center">Why Choose Opal?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -53,7 +53,7 @@ export default function Home() {
       </main>
 
       <footer className="container mx-auto px-4 py-8 text-center text-gray-400">
-        <p>&copy; 2023 Opal. All rights reserved.</p>
+        <p>&copy; 2024 Opal. All rights reserved.</p>
       </footer>
     </div>
   )

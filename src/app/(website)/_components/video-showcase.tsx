@@ -29,7 +29,7 @@ export default function VideoShowcase() {
   const [playing, setPlaying] = useState(false)
 
   return (
-    <section className="bg-gray-800 py-20">
+    <section className=" dark:bg-neutral-950 py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">See Opal in Action</h2>
         <Tabs defaultValue="workspace" className="w-full max-w-4xl mx-auto">

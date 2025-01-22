@@ -10,12 +10,13 @@ const LandingPageNavBar = (props: Props) => {
   return (
     <div className="flex w-full justify-between items-center max-md:gap-x-5">
       <div className="text-3xl font-semibold flex items-center gap-x-3">
-        <Menu className="w-[4rem]" />
+        {/* <Menu className="w-[4rem]" /> */}
         <Image 
         alt="logo"
         src="./opal-logo.svg" 
         width={40}
         height={40}
+        className='pl-3'
         />
         Opal
       </div>
