@@ -10,7 +10,7 @@ Opal is a comprehensive application designed to streamline screen recording and 
 ### Web Application (Next.js)
 - **Workspace Management**:
   - Create and manage workspaces.
-  - Invite collaborators to workspaces.
+  - Invite collaborators to workspaces and grow.
 - **Folder Organization**:
   - Create and organize folders for video projects.
 - **Video Management**:
