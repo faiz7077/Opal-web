@@ -8,16 +8,6 @@ https://github.com/user-attachments/assets/a699b9b9-e6ea-40dd-ad1f-3a12bb7199b9
 Opal is a comprehensive application designed to streamline screen recording and video collaboration workflows. It consists of three integrated components: a Next.js web application, an Electron.js-based desktop application, and an Express.js server for video processing.
 
 ---
-# Opal: Screen Recording and Collaboration Platform
-
-
-
-https://github.com/user-attachments/assets/a699b9b9-e6ea-40dd-ad1f-3a12bb7199b9
-
-
-Opal is a comprehensive application designed to streamline screen recording and video collaboration workflows. It consists of three integrated components: a Next.js web application, an Electron.js-based desktop application, and an Express.js server for video processing.
-
----
 
 ## Features
 
