@@ -1,5 +1,8 @@
 import React from "react";
 import { BackgroundLines } from "@/components/ui/background-lines";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export function BackgroundLinesDemo() {
   return (
@@ -11,6 +14,20 @@ export function BackgroundLinesDemo() {
       Opal is your all-in-one solution for video recording and sharing, designed for seamless collaboration.
 
       </p>
+      <div className="flex flex-col md:flex-row gap-4 z-50">
+        <Link href="/auth/sign-up">
+            <Button size="lg" className="mt-4">
+                Start for Free
+                <ArrowRight className="ml-2" />
+            </Button>
+        </Link>
+        <Link href="#video">
+            <Button size="lg" variant="outline" className="mt-4">
+                Watch Demo
+            </Button>
+        </Link>
+      </div>
+      
     </BackgroundLines>
   );
 }

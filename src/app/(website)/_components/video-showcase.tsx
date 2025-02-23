@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Cover } from '@/components/ui/cover'
 
 const videos = [
   { 
@@ -31,7 +32,12 @@ export default function VideoShowcase() {
   return (
     <section className=" dark:bg-neutral-950 py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center " id='video'>See Opal in Action</h2>
+        <div className='flex flex-col items-center pb-8'>
+          <Cover>
+          <h2 className="text-3xl font-bold text-center " id='video'>See Opal in Action</h2>
+          </Cover>
+        </div>
+        
         <Tabs defaultValue="workspace" className="w-full max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="workspace">Workspace Tour</TabsTrigger>
