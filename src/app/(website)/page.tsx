@@ -25,7 +25,7 @@ export default function Home() {
       <main>
         <section className="container mx-auto px-4 py-20 text-center">
           <Cover>
-              <h1 className="text-5xl">
+              <h1 className="text-4xl">
               Record, Share, Collaborate
               </h1>
             </Cover>
