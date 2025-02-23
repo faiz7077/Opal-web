@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { Check, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Switch } from '@/components/ui/switch'
+import Link from 'next/link'
 
 const plans = [
   {
@@ -82,9 +83,11 @@ export default function PricingSection() {
                   </motion.li>
                 ))}
               </ul>
-              <Button className="w-full" variant={plan.name === 'Pro' ? 'default' : 'outline'}>
-                {plan.name === 'Free' ? 'Get Started' : 'Upgrade to Pro'}
-              </Button>
+              <Link href="/auth/sign-up">
+                <Button className="w-full" variant={plan.name === 'Pro' ? 'default' : 'outline'}>
+                  {plan.name === 'Free' ? 'Get Started' : 'Upgrade to Pro'}
+                </Button>
+              </Link>
             </motion.div>
           ))}
         </div>

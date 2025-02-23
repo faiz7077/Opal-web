@@ -8,7 +8,7 @@ type Props = {}
 
 const LandingPageNavBar = (props: Props) => {
   return (
-    <div className="flex w-full justify-between items-center max-md:gap-x-5">
+    <div className="flex w-full justify-between items-center max-md:gap-x-5 z-auto">
       <div className="text-3xl font-semibold flex items-center gap-x-3">
         {/* <Menu className="w-[4rem]" /> */}
         <Image 
