@@ -31,7 +31,7 @@ export default function VideoShowcase() {
   return (
     <section className=" dark:bg-neutral-950 py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">See Opal in Action</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center " id='video'>See Opal in Action</h2>
         <Tabs defaultValue="workspace" className="w-full max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="workspace">Workspace Tour</TabsTrigger>

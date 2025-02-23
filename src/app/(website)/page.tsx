@@ -8,6 +8,9 @@ import LandingPageNavBar from './_components/navbar'
 
 import LampDemo from '@/components/ui/lamp'
 import { Cover } from '@/components/ui/cover'
+import { Spotlight } from '@/components/ui/spotlight'
+import { BackgroundLinesDemo } from '@/components/global/backgorundlines/BackgroundLines'
+
 
 
 export default function Home() {
@@ -23,31 +26,39 @@ export default function Home() {
       <div><LandingPageNavBar /></div>
 
       <main>
+      <Spotlight></Spotlight>
+      <BackgroundLinesDemo/>
         <section className="container mx-auto px-4 py-20 text-center">
           <Cover>
               <h1 className="text-4xl">
               Record, Share, Collaborate
               </h1>
             </Cover>
-          <p className="text-xl mb-8">
+          <p className="text-xl mb-8  p-5">
             
             Opal is your all-in-one solution for video recording and sharing, designed for seamless collaboration.
+            Designed to enhance productivity, it offers powerful tools for screen and webcam capture, real-time video processing, and easy sharing with team members or clients.
           </p>
-          <Button size="lg" className="mr-4">
-            Start for Free
-            <ArrowRight className="ml-2" />
-          </Button>
-          <Button size="lg" variant="outline">
-            Watch Demo
-          </Button>
+          <Link href="/auth/sign-up">
+            <Button size="lg" className="mr-4">
+              Start for Free
+              <ArrowRight className="ml-2" />
+            </Button>
+          </Link>
+          <Link href="#video">
+            <Button size="lg" variant="outline">
+              Watch Demo
+            </Button>
+          </Link>
         </section>
+        <LampDemo/> 
 
         <VideoShowcase />
         {/* <div><HeroParallax products={products} /></div> */}
         
         <section className="container mx-auto px-4 py-20  dark:bg-neutral-950">
           <h2 className="text-3xl font-bold mb-8 text-center">
-            <LampDemo/> 
+            
             Why Choose Opal?
             </h2>
           <div className="grid md:grid-cols-3 gap-8">

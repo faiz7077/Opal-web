@@ -16,7 +16,7 @@ export default function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-       <div>Build Videos <br /> the right way
+       <div><h1>Build Videos <br /> the right way</h1>
        
        </div> 
       </motion.h1>
