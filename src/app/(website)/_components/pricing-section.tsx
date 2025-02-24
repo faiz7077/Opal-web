@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+// import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Check, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Switch } from '@/components/ui/switch'
+// import { Switch } from '@/components/ui/switch'
 import Link from 'next/link'
 
 const plans = [
@@ -44,7 +44,7 @@ export default function PricingSection() {
           {plans.map((plan, index) => (
             <motion.div
               key={plan.name}
-              className="bg-gray-800 rounded-lg p-8 shadow-lg border border-gray-700 relative overflow-hidden"
+              className="bg-slate-900 rounded-lg p-8 shadow-lg border border-gray-700 relative overflow-hidden"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
