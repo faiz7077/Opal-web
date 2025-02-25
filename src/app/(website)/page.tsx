@@ -66,7 +66,7 @@ export default function Home() {
               'Web & Desktop Recording',
               'Workspace Collaboration',
               'Folder Organization',
-              'Secure Video Sharing',
+              'Secured Video Sharing',
               'View Notifications',
               'AI-Powered Features',
             ].map((feature, index) => (
