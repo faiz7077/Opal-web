@@ -1,4 +1,4 @@
-# Opal: Screen Recording and Collaboration Platform
+# Opal: A Screen Recording and Collaboration Platform
 
 
 
