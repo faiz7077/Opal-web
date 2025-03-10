@@ -101,7 +101,7 @@ Start the server
   bun run dev
 ```
 
-Add env to root of your folder
+## Add env to root of your folder
 ```bash
 DATABASE_URL=
 ```
