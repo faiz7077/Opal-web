@@ -101,6 +101,30 @@ Start the server
   bun run dev
 ```
 
+Add env to root of your folder
+DATABASE_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_STRIPE_PUBLISH_KEY=
+
+
+
+NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/auth/callback
+NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/auth/callback
+
+OPEN_AI_KEY=
+
+
+NEXT_PUBLIC_CLOUD_FRONT_STREAM_URL=
+
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+
+
+MAILER_PASSWORD=
+MAILER_EMAIL=
+CLOUD_WAYS_POST=
 
 ## 🔗 Lets Connect
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
