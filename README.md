@@ -102,25 +102,34 @@ Start the server
 ```
 
 Add env to root of your folder
+```bash
 DATABASE_URL=
-
+```
+```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+```
+```bash
 CLERK_SECRET_KEY=
-
+```
+```bash
 NEXT_PUBLIC_STRIPE_PUBLISH_KEY=
+```
 
-
-
+```bash
 NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/auth/callback
+```
+```bash
 NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/auth/callback
-
+```
+```bash
 OPEN_AI_KEY=
-
-
+```
+```bash
 NEXT_PUBLIC_CLOUD_FRONT_STREAM_URL=
-
+```
+```bash
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-
+```
 
 MAILER_PASSWORD=
 MAILER_EMAIL=
