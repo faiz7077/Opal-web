@@ -130,11 +130,15 @@ NEXT_PUBLIC_CLOUD_FRONT_STREAM_URL=
 ```bash
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 ```
-
+```bash
 MAILER_PASSWORD=
+```
+```bash
 MAILER_EMAIL=
+```
+```bash
 CLOUD_WAYS_POST=
-
+```
 ## 🔗 Lets Connect
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
