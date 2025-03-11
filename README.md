@@ -104,8 +104,7 @@ Start the server
 ## Add .env file in the root of your folder
 ```bash
 DATABASE_URL=
-```
-```bash
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 ```
 ```bash
