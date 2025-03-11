@@ -112,26 +112,19 @@ CLERK_SECRET_KEY=
 NEXT_PUBLIC_STRIPE_PUBLISH_KEY=
 
 NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/auth/callback
-```
-```bash
+
 NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/auth/callback
-```
-```bash
+
 OPEN_AI_KEY=
-```
-```bash
+
 NEXT_PUBLIC_CLOUD_FRONT_STREAM_URL=
-```
-```bash
+
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-```
-```bash
+
 MAILER_PASSWORD=
-```
-```bash
+
 MAILER_EMAIL=
-```
-```bash
+
 CLOUD_WAYS_POST=
 ```
 ## 🔗 Lets Connect
