@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: 'Pro',
-    price: { monthly: 99 },
+    price: { monthly: 80 },
     features: [
       { name: 'Unlimited workspaces', included: true },
       { name: '1080p video quality', included: true },
